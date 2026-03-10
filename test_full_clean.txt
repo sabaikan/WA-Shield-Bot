@@ -1,0 +1,41 @@
+Starting testFull...
+Cek Link: https://bafamilinga.netlify.app/?gad_source=1&gad_campaignid=23578
+localResult: {
+  "status": "BAHAYA",
+  "score": 85,
+  "riskPercentage": 85,
+  "domain": "bafamilinga.netlify.app",
+  "forensicNotes": [
+    "⚠️ Subdomain \"bafamilinga\" pada hosting gratis tidak mengandung kata bermakna — pola umum situs penipuan.",
+    "⚠️ URL mengandung parameter iklan berbayar (gad_source, gad_campaignid) yang mengarah ke hosting gratis — pola umum penipuan via Google Ads.",
+    "⚠️ Situs pada hosting gratis mengembalikan HTTP 404 — kemungkinan halaman phishing yang sudah dihapus/ditakedown."
+  ],
+  "sslDetails": {
+    "issuer": "digicert inc",
+    "subject": "*.netlify.app",
+    "validFrom": "2026-02-16",
+    "validTo": "2027-03-19",
+    "certAgeDays": 10,
+    "certLifetimeDays": 396,
+    "isFreeCert": false,
+    "isSelfSigned": false
+  },
+  "dnsDetails": {},
+  "authoritySpoofDetected": false,
+  "credentialHarvesting": false,
+  "safeBrowsingFlag": false
+}
+vtResult: {
+  "found": true,
+  "data": {
+    "malicious": 9,
+    "suspicious": 0,
+    "undetected": 27,
+    "harmless": 58,
+    "timeout": 0
+  }
+}
+Final Score: 625
+Percent: 100
+Notes length: 366
+Test finished successfully.

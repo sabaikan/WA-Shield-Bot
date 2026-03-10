@@ -1,0 +1,10 @@
+REM [SIMULASI OBFUSCATION KOMPLEKS]
+REM Taktik 1: Menyembunyikan eksekusi di balik Base64
+powershell -Enc "UwB0AGEAcgB0AC0AUABoAGkAcwBoAGkAbgBnACAAQQBwAHAAbABpAGMAYQB0AGkAbwBuAA=="
+
+REM Taktik 2: Mencurigakan - mencari Path Data Browser Asli
+cd \User Data\Default\Login Data\
+
+REM Taktik 3: Memanggil modul RAT (Spynote/Cerberus)
+import spynote.core.inject;
+import cerberus.hidden.payload;
